@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Surgeon">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="240dp"
+        android:layout_height="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/half_ellipse" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="333dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@id/imageView6"
+        app:layout_constraintHorizontal_bias="1.45"
+        app:layout_constraintStart_toStartOf="@id/imageView6"
+        app:layout_constraintTop_toTopOf="@id/imageView6"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/puppydog_with_stethoscope" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="280dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/surgeon_rectangle"
+        android:onClick="goToVetrinary_surgeon"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="280dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="440dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/surgeon_rectangle"
+        android:onClick="goToTrainer"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="285dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/surgeon_rectangle"
+        android:onClick="goToGrooming"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="193dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_flex_regular"
+        android:text="Vetrinary surgeon"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_flex_regular"
+        android:text="Trainer"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto_flex_regular"
+        android:text="Grooming"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

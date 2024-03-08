@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Trainer">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/left_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="goToSurgeon"/>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="172dp"
+            android:fontFamily="@font/roboto_flex_regular"
+            android:text="Trainer"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="176dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/surgeondetail_rectangle" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            style="@style/circular"
+            android:layout_width="112dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="228dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/surgeon1" />
+
+        <ImageView
+            android:id="@+id/msg_icon1"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="408dp"
+            android:layout_marginEnd="100dp"
+            android:onClick="onMsgIconClicked1"
+            android:src="@drawable/msg_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/call_icon1"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="408dp"
+            android:onClick="onCallIconClicked1"
+            android:src="@drawable/call_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="352dp"
+            android:text="(D.V.M) H.G Gamage"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/call_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="496dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/surgeondetail_rectangle" />
+
+        <ImageView
+            android:id="@+id/call_icon2"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="728dp"
+            android:onClick="onCallIconClicked2"
+            android:src="@drawable/call_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/msg_icon2"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="728dp"
+            android:layout_marginEnd="100dp"
+            android:onClick="onMsgIconClicked2"
+            android:src="@drawable/msg_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="660dp"
+            android:text="(D.V.M) H.G Gamage"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            style="@style/circular"
+            android:layout_width="112dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="524dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/surgeon1" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="824dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/surgeondetail_rectangle" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            style="@style/circular"
+            android:layout_width="112dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="860dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/surgeon1" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="988dp"
+            android:text="Hewagamage"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/call_icon3"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="1052dp"
+            android:onClick="onCallIconClicked3"
+            android:src="@drawable/call_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/msg_icon3"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="1052dp"
+            android:layout_marginEnd="100dp"
+            android:onClick="onMsgIconClicked3"
+            android:src="@drawable/msg_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="177dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="1136dp"
+            android:text=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

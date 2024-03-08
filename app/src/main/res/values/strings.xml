@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pet Care</string>
+    <string name="get_start">Get Start</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="click_pet">Click Pet</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="insert_image">+ Insert Image</string>
+
+    <string-array name="spinner_values">
+        <item>Golden Retriever</item>
+        <item>Labrador Retriever</item>
+        <item>German Shepherd</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
